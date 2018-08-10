@@ -1,0 +1,67 @@
+@charset "utf-8";	
+	div	{
+		margin: -2px;
+		vertical-align: top;
+	}
+		
+	.pacman	{
+		width: 50px;
+		height: 50px;
+		background-image: url('pacman.png');
+		display: inline-block;
+	}
+	
+	.wall	{
+		width: 50px;
+		height: 50px;
+		background-image: url('wall.png');
+		display: inline-block;
+	}
+	
+	.coin	{
+		width: 50px;
+		height: 50px;
+		background-image: url('coin.png');
+		display: inline-block;
+	}
+	
+	.ground	{
+		width: 50px;
+		height: 50px;
+		background-image: url('bg.png');
+		display: inline-block;
+	}
+		
+	.blinky	{
+		width: 50px;
+		height: 50px;
+		background-image: url('blinky.png');
+		display: inline-block;
+		}
+		
+	.rotate90	{
+		transform:rotate(90deg);
+		behavior:url(-ms-transform.htc);	/* Firefox */
+		-moz-transform:rotate(90deg);		/* Safari and Chrome */
+		-webkit-transform:rotate(90deg);	/* Opera */
+		-o-transform:rotate(90deg);			/* IE9 */
+		-ms-transform:rotate(90deg);		/* IE6, IE7 */
+	}
+
+	.rotate270	{
+		transform:rotate(270deg);
+		behavior:url(-ms-transform.htc);	/* Firefox */
+		-moz-transform:rotate(270deg);		/* Safari and Chrome */
+		-webkit-transform:rotate(270deg);	/* Opera */
+		-o-transform:rotate(270deg);		/* IE9 */
+		-ms-transform:rotate(270deg);		/* IE6, IE7 */
+	}
+
+	.flip-horizontal	{
+		-moz-transform: scaleX(-1);
+		-webkit-transform: scaleX(-1);
+		-o-transform: scaleX)-1);
+		transform: scaleX(-1);
+		-ms-filter: fliph;					/* IE */
+		filter: fliph;						/* IE */
+	}
